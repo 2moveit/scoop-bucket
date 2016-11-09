@@ -1,7 +1,7 @@
 # scoop-bucket
 Repository for apps to install via [Scoop](http://scoop.sh/).
 
-1. If you do not like the default installation path  `~\appdata\local\scoop\` you can set path for the apps with an environment variable in Powershell 3. Do this before the installation or you'll have to uninstall scoop first. `[environment]::setEnvironmentVariable('SCOOP','D:\Scoop-Apps','User')`
+1. If you do not like the default installation path  `~\appdata\local\scoop\` you can set path for the apps with an environment variable in Powershell 3. Do this before the installation or you'll have to uninstall scoop first. `[environment]::setEnvironmentVariable('SCOOP','D:\Scoop-Apps','User')` NOTE: You have to restart Powershell to load the variable. 
 
 2. Install Scoop with Powershell 3:
 `iex (new-object net.webclient).downloadstring('https://get.scoop.sh')`
